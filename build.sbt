@@ -1,6 +1,6 @@
 scalaVersion := "2.12.15"
 
-name := "hello-world"
+name := "scala-demo"
 organization := "ch.epfl.scala"
 version := "1.0"
 
