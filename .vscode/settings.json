@@ -4,24 +4,15 @@
     },
     "sqltools.connections": [
         {
-            "authenticator": "SNOWFLAKE",
-            "ocspOptions": {
-                "ocspFailOpen": true
-            },
-            "snowflakeOptions": {
-                "clientSessionKeepAlive": true,
-                "clientSessionKeepAliveHeartbeatFrequency": 3600,
-                "schema": "SCALA_DEMO",
-                "role": "BIFROST_ADMIN"
-            },
-            "previewLimit": 50,
             "driver": "Snowflake",
             "name": "Mobilize",
             "account": "mobilize",
             "username": "BIFROSTADMIN",
             "password": "B1fr0st6724",
             "database": "DB1",
-            "warehouse": "DEMO_WH"
+            "warehouse": "DEMO_WH",
+            "role": "BIFROST_ADMIN",
+            "schema": "SCALA_DEMO"
         }
     ],
     "sqltools.autoConnectTo": "Mobilize"
